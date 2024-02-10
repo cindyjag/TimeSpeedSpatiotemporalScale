@@ -16,7 +16,7 @@ library(rlang)
 library(plotrix)
 library(Hmisc)
 library(patchwork)
-setwd("C:/Users/cindy/Desktop/data_tss1")
+setwd("YOURPATH")
 dsa<-read.table("dsa.txt", header=T,  sep="\t", dec=".", fill=T)
 
 
@@ -28,7 +28,7 @@ dsa_l <- dsa[dsa$bedingung=="lang",]
 
 ####################################################
 #Outlier script 
-source("C:/Users/cindy/Desktop/TSS/tss_outlier.R")
+source("YOURPATH/ScriptOutlier.R")
 
 
 
